@@ -24,4 +24,60 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     fontFamily: fontFamily.medium,
   },
+  ticket: {
+    backgroundColor: colors.white,
+    borderRadius: 22,
+    overflow: "hidden",
+    paddingBottom: 24,
+    flex:1,
+    width:"100%"
+  },
+  content: {
+    padding: 20,
+  },
+  flight: {
+    width: "100%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 52,
+  },
+  duration: {
+    alignItems: "center",
+  },
+  hours: {
+    color: colors.gray[800],
+    fontSize: 14,
+    fontFamily: fontFamily.regular,
+  },
+  label: {
+    color: colors.gray[400],
+    fontSize: 12,
+    textTransform: "uppercase",
+    fontFamily: fontFamily.regular,
+  },
+  name: {
+    fontSize: 22,
+    fontFamily: fontFamily.bold,
+  },
+  details: {
+    marginTop: 52,
+    gap: 32,
+  },
+  inline: {
+    width: "100%",
+    justifyContent: "space-between",
+    flexDirection: "row",
+  },
+  footer: {
+    width: "100%",
+    padding: 20,
+    flexDirection: "row",
+    gap: 16,
+    alignItems: "center",
+  },
+  footerContent: {
+    flex: 1,
+    gap: 24,
+  },
 });
