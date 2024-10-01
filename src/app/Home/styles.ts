@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native"
+
 import { colors } from "@/styles/colors"
 import { fontFamily } from "@/styles/fontFamily"
 
@@ -29,8 +30,6 @@ export const styles = StyleSheet.create({
     borderRadius: 22,
     overflow: "hidden",
     paddingBottom: 24,
-    flex:1,
-    width:"100%"
   },
   content: {
     padding: 20,
@@ -80,4 +79,4 @@ export const styles = StyleSheet.create({
     flex: 1,
     gap: 24,
   },
-});
+})
